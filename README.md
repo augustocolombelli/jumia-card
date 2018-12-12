@@ -23,11 +23,11 @@ insert into card (number, scheme, type, bank_id, valid) values (99223366558, 'VI
 
 insert into card (number, scheme, type, bank_id, valid) values (77556655884, 'MASTERCARD', 'DEBIT', 2, 1);
 
-### 4 - Generate JAR file
+#### 4 - Generate JAR file
 4.1 - In eclipse, run project as Maven build...;<br/>
 4.2 - Set in goals field "package";<br/>
 4.3 - In CMD, run the command "java -jar <<name of jar file>>" in the directory of jar; 
 
-### 5 - Run Service
+#### 5 - Run Service
 5.1 - In browser or other HTTP (like postman). Open this URL "http://localhost:8080/api/card-scheme/verify/77556655884" with GET method; <br/>
 5.2 - Default user and password is "admin" and "admin";
