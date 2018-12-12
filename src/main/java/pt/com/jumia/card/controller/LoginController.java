@@ -10,7 +10,6 @@ public class LoginController {
 
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public String showLoginPage(ModelMap model) {
-		model.put("name", "in28Minutes");
 		return "welcome";
 	}
 
